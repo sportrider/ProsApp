@@ -57,11 +57,11 @@
 		381ED1B72566EDF800F2A72A /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED1B62566EDF800F2A72A /* Buttons.swift */; };
 		381ED1B82566EDF800F2A72A /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED1B62566EDF800F2A72A /* Buttons.swift */; };
 		381ED1B92566EDF800F2A72A /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED1B62566EDF800F2A72A /* Buttons.swift */; };
-		381ED1C5256707AA00F2A72A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED1C4256707AA00F2A72A /* Extensions.swift */; };
-		381ED1C6256707AA00F2A72A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED1C4256707AA00F2A72A /* Extensions.swift */; };
-		381ED1C7256707AA00F2A72A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED1C4256707AA00F2A72A /* Extensions.swift */; };
 		386845B9257EA912004F08D0 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D5150257D8E4A001A1C95 /* Labels.swift */; };
 		386845BD257EA92C004F08D0 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D5150257D8E4A001A1C95 /* Labels.swift */; };
+		386845C8257EE9E5004F08D0 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386845C7257EE9E5004F08D0 /* Enums.swift */; };
+		386845C9257EE9E5004F08D0 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386845C7257EE9E5004F08D0 /* Enums.swift */; };
+		386845CA257EE9E5004F08D0 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386845C7257EE9E5004F08D0 /* Enums.swift */; };
 		387D5151257D8E4A001A1C95 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D5150257D8E4A001A1C95 /* Labels.swift */; };
 /* End PBXBuildFile section */
 
@@ -111,7 +111,7 @@
 		381ED1A42566DF8E00F2A72A /* ProsDetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProsDetailView.storyboard; sourceTree = "<group>"; };
 		381ED1AB2566DFC900F2A72A /* ProsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProsDetailViewController.swift; sourceTree = "<group>"; };
 		381ED1B62566EDF800F2A72A /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
-		381ED1C4256707AA00F2A72A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		386845C7257EE9E5004F08D0 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		387D5150257D8E4A001A1C95 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,7 +174,6 @@
 		381ED11A2566D4B300F2A72A /* ProsApp */ = {
 			isa = PBXGroup;
 			children = (
-				381ED1C32567079500F2A72A /* Extensions */,
 				381ED1B52566EDDC00F2A72A /* CommonControls */,
 				381ED14E2566D4E400F2A72A /* Services */,
 				381ED17C2566D6BB00F2A72A /* Model */,
@@ -239,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				381ED1882566D73400F2A72A /* pro_data.json */,
+				386845C7257EE9E5004F08D0 /* Enums.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -260,14 +260,6 @@
 				387D5150257D8E4A001A1C95 /* Labels.swift */,
 			);
 			path = CommonControls;
-			sourceTree = "<group>";
-		};
-		381ED1C32567079500F2A72A /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				381ED1C4256707AA00F2A72A /* Extensions.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		387D5155257D9034001A1C95 /* ProsView */ = {
@@ -436,10 +428,10 @@
 				3811174C257E82F700FCE8DF /* WebServicesProtocol.swift in Sources */,
 				3811173B257E80B400FCE8DF /* WebServiceSession.swift in Sources */,
 				381ED11C2566D4B300F2A72A /* AppDelegate.swift in Sources */,
-				381ED1C5256707AA00F2A72A /* Extensions.swift in Sources */,
 				381ED1762566D61800F2A72A /* DataAccessService.swift in Sources */,
 				381ED19B2566D9AD00F2A72A /* ProsManager.swift in Sources */,
 				381ED11E2566D4B300F2A72A /* SceneDelegate.swift in Sources */,
+				386845C8257EE9E5004F08D0 /* Enums.swift in Sources */,
 				381ED16C2566D5E500F2A72A /* DataAccessProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,7 +446,6 @@
 				381ED1772566D61800F2A72A /* DataAccessService.swift in Sources */,
 				381ED15E2566D52B00F2A72A /* ServiceFactory.swift in Sources */,
 				381ED19C2566D9AD00F2A72A /* ProsManager.swift in Sources */,
-				381ED1C6256707AA00F2A72A /* Extensions.swift in Sources */,
 				381ED16D2566D5E500F2A72A /* DataAccessProtocol.swift in Sources */,
 				381ED1332566D4B500F2A72A /* ProsAppTests.swift in Sources */,
 				38111746257E81A900FCE8DF /* WebServiceManager.swift in Sources */,
@@ -462,6 +453,7 @@
 				386845B9257EA912004F08D0 /* Labels.swift in Sources */,
 				381ED1652566D53E00F2A72A /* ServiceExtensions.swift in Sources */,
 				381ED1AD2566DFC900F2A72A /* ProsDetailViewController.swift in Sources */,
+				386845C9257EE9E5004F08D0 /* Enums.swift in Sources */,
 				3811173C257E80B400FCE8DF /* WebServiceSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,7 +468,6 @@
 				381ED1782566D61800F2A72A /* DataAccessService.swift in Sources */,
 				381ED15F2566D52B00F2A72A /* ServiceFactory.swift in Sources */,
 				381ED19D2566D9AD00F2A72A /* ProsManager.swift in Sources */,
-				381ED1C7256707AA00F2A72A /* Extensions.swift in Sources */,
 				381ED16E2566D5E500F2A72A /* DataAccessProtocol.swift in Sources */,
 				381ED13E2566D4B500F2A72A /* ProsAppUITests.swift in Sources */,
 				38111747257E81A900FCE8DF /* WebServiceManager.swift in Sources */,
@@ -484,6 +475,7 @@
 				386845BD257EA92C004F08D0 /* Labels.swift in Sources */,
 				381ED1662566D53E00F2A72A /* ServiceExtensions.swift in Sources */,
 				381ED1AE2566DFC900F2A72A /* ProsDetailViewController.swift in Sources */,
+				386845CA257EE9E5004F08D0 /* Enums.swift in Sources */,
 				3811173D257E80B400FCE8DF /* WebServiceSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

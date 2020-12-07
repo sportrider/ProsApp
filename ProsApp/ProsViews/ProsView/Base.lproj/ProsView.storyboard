@@ -67,7 +67,13 @@
                             <outlet property="delegate" destination="VRc-K3-9se" id="0rf-Ue-urZ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="6kE-s0-8pI"/>
+                    <navigationItem key="navigationItem" id="6kE-s0-8pI">
+                        <barButtonItem key="rightBarButtonItem" title="Sort" id="h36-aL-X3q">
+                            <connections>
+                                <action selector="didTapSortButton:" destination="VRc-K3-9se" id="Ezz-Of-d3V"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5jD-8O-j9P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

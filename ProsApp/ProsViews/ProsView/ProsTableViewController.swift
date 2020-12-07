@@ -40,6 +40,30 @@ class ProsTableViewController: UITableViewController {
             self.navigationController?.pushViewController(prosDetailViewController, animated: true)
         }
     }
+    
+    @IBAction func didTapSortButton(_ sender: Any) {
+        
+        let sortView = UIAlertController()
+        
+        sortView.addAction(UIAlertAction(title: "Name", style: .default, handler: { action in
+            self.processSort(action: action)
+        }))
+        
+        sortView.addAction(UIAlertAction(title: "specialty", style: .default, handler: { action in
+            self.processSort(action: action)
+        }))
+        
+        sortView.addAction(UIAlertAction(title: "rating", style: .default, handler:{ action in
+            self.processSort(action: action)
+        }))
+        
+        self.present(sortView, animated: true, completion: nil)
+    }
+   
+    func processSort(action: UIAlertAction) {
+        
+    }
+    
 }
 
 

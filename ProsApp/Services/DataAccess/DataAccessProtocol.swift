@@ -11,5 +11,5 @@ import Foundation
 // These can include web services, CoreData, filesystem, etc.
 
 public protocol DataAccessProtocol {
-    func getProsDataFromBundle(fileName: String, fileExtension: String) -> (ProsDataArray?, String?)
+    func getProsDataFromBundle(fileName: String, fileExtension: String) -> ProsDataResult<ProsDataArray>
 }

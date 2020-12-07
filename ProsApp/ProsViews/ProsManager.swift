@@ -27,13 +27,13 @@ public class ProsManager: HasDependencies {
     }
     
     private func loadProsData() {
-        let dataTuple = prosDataAccess.getProsDataFromBundle(fileName: "pro_data", fileExtension: "json")
+        let result = prosDataAccess.getProsDataFromBundle(fileName: "pro_data", fileExtension: "json")
         
-        if let dataArray = dataTuple.0 {
-            prosManagerData = dataArray.sorted{$0.companyName < $1.companyName}
-        } else {
-            // simplefied error handling
-            print(dataTuple.1 ?? "Unknown error")
+        switch result {
+        case .failure(let error):
+            print(error)
+        case .success(let value):
+            prosManagerData = value.sorted{$0.companyName < $1.companyName}
         }
     }
     

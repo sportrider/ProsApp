@@ -29,11 +29,11 @@ class RatingsLabel : UILabel {
     
         if ratingCountInt > 0 {
             if ratingFloat >= 4.0 {
-                ratingsColor = UIColor.RatingsColor.excellent
+                ratingsColor = RatingsColor.excellent.toUIColor()
             } else if ratingFloat >= 3.0 && ratingFloat < 4.0 {
-                ratingsColor = UIColor.RatingsColor.good
+                ratingsColor = RatingsColor.good.toUIColor()
             } else if ratingFloat < 3.0 {
-                ratingsColor = UIColor.RatingsColor.fair
+                ratingsColor = RatingsColor.fair.toUIColor()
             }
         }
         
