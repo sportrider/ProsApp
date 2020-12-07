@@ -24,9 +24,7 @@ public struct ProsData: Codable {
     }
 }
 
-
 public typealias ProsDataArray = [ProsData]
-
 
 
 public struct SomeRequest: Codable {
@@ -43,7 +41,6 @@ public struct SomeResponse: Codable {
         case message = "message"
     }
 }
-
 
 public struct SomeData: Codable {
     let data: Int

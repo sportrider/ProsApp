@@ -79,7 +79,7 @@ public class WebServicesManager: WebServicesProtocol, HasDependencies {
                 return
             }
             
-            if  httpResponse.statusCode > 299 {  // check for network error... business logic errors checked later... gjh
+            if httpResponse.statusCode > 299 {  // check for network error... business logic errors checked later... gjh
                 result(data, httpResponse.statusCode,  WebServiceError.unexpectedResponseType)
                 return
             }

@@ -19,10 +19,6 @@ class OrangeButton : UIButton {
         self.setTitleColor(UIColor.white, for: .normal)
     }
     
-    required override init(frame: CGRect) {
-        super.init(frame: frame)
-    }
-    
     func setTitleText(_ title: String) {
 
         let labelFont = UIFont.systemFont(ofSize: 16.0, weight: .medium)

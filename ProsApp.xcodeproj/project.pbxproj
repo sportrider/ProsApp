@@ -60,6 +60,8 @@
 		381ED1C5256707AA00F2A72A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED1C4256707AA00F2A72A /* Extensions.swift */; };
 		381ED1C6256707AA00F2A72A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED1C4256707AA00F2A72A /* Extensions.swift */; };
 		381ED1C7256707AA00F2A72A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED1C4256707AA00F2A72A /* Extensions.swift */; };
+		386845B9257EA912004F08D0 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D5150257D8E4A001A1C95 /* Labels.swift */; };
+		386845BD257EA92C004F08D0 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D5150257D8E4A001A1C95 /* Labels.swift */; };
 		387D5151257D8E4A001A1C95 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D5150257D8E4A001A1C95 /* Labels.swift */; };
 /* End PBXBuildFile section */
 
@@ -457,6 +459,7 @@
 				381ED1332566D4B500F2A72A /* ProsAppTests.swift in Sources */,
 				38111746257E81A900FCE8DF /* WebServiceManager.swift in Sources */,
 				3811174D257E82F700FCE8DF /* WebServicesProtocol.swift in Sources */,
+				386845B9257EA912004F08D0 /* Labels.swift in Sources */,
 				381ED1652566D53E00F2A72A /* ServiceExtensions.swift in Sources */,
 				381ED1AD2566DFC900F2A72A /* ProsDetailViewController.swift in Sources */,
 				3811173C257E80B400FCE8DF /* WebServiceSession.swift in Sources */,
@@ -478,6 +481,7 @@
 				381ED13E2566D4B500F2A72A /* ProsAppUITests.swift in Sources */,
 				38111747257E81A900FCE8DF /* WebServiceManager.swift in Sources */,
 				3811174E257E82F700FCE8DF /* WebServicesProtocol.swift in Sources */,
+				386845BD257EA92C004F08D0 /* Labels.swift in Sources */,
 				381ED1662566D53E00F2A72A /* ServiceExtensions.swift in Sources */,
 				381ED1AE2566DFC900F2A72A /* ProsDetailViewController.swift in Sources */,
 				3811173D257E80B400FCE8DF /* WebServiceSession.swift in Sources */,

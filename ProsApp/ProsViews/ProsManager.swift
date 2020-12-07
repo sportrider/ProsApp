@@ -48,9 +48,7 @@ public class ProsManager: HasDependencies {
                 } else {
                     //handle error
                 }
-            
             }
         }
     }
-
 }
