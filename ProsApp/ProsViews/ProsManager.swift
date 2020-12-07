@@ -11,7 +11,10 @@ import Foundation
 public var sharedProsManager = ProsManager.shared
 
 public class ProsManager: HasDependencies {
+    
     lazy private var prosDataAccess: DataAccessProtocol = self.dependencies.resolveDataAccessService()
+    lazy private var webService: WebServicesProtocol = self.dependencies.resolveWebService()
+    
     private var prosManagerData = ProsDataArray()
     public static let shared = ProsManager()
     
@@ -33,4 +36,21 @@ public class ProsManager: HasDependencies {
             print(dataTuple.1 ?? "Unknown error")
         }
     }
+    
+    func getData() {
+        
+        let someRequest = SomeRequest(someValue: "Merry Chrismas", someOtherValue: "Happy New Year")
+        
+        webService.postSomething(someRequest: someRequest) { (result) in
+            DispatchQueue.main.async {
+                if result.success {
+                    
+                } else {
+                    //handle error
+                }
+            
+            }
+        }
+    }
+
 }

@@ -26,3 +26,25 @@ public struct ProsData: Codable {
 
 
 public typealias ProsDataArray = [ProsData]
+
+
+
+public struct SomeRequest: Codable {
+    let someValue: String
+    let someOtherValue: String
+}
+
+public struct SomeResponse: Codable {
+    let errorCode: Int?
+    let message: String?
+    
+    public enum CodingKeys: String, CodingKey {
+        case errorCode = "errorCode"
+        case message = "message"
+    }
+}
+
+
+public struct SomeData: Codable {
+    let data: Int
+}

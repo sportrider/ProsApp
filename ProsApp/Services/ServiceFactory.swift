@@ -7,11 +7,17 @@
 import Foundation
 
 public protocol ServiceFactory {
+    func resolveWebService() -> WebServicesProtocol
     func resolveDataAccessService() -> DataAccessProtocol
 }
 
 open class CoreServicesContainer: ServiceFactory {
     public init() {}
+    
+    open func resolveWebService() -> WebServicesProtocol {
+        return WebServicesManager()
+    }
+    
     open func resolveDataAccessService() -> DataAccessProtocol {
         return DataAccessService()
     }

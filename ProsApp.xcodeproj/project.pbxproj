@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3811173B257E80B400FCE8DF /* WebServiceSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3811173A257E80B400FCE8DF /* WebServiceSession.swift */; };
+		3811173C257E80B400FCE8DF /* WebServiceSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3811173A257E80B400FCE8DF /* WebServiceSession.swift */; };
+		3811173D257E80B400FCE8DF /* WebServiceSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3811173A257E80B400FCE8DF /* WebServiceSession.swift */; };
+		38111745257E81A900FCE8DF /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38111744257E81A900FCE8DF /* WebServiceManager.swift */; };
+		38111746257E81A900FCE8DF /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38111744257E81A900FCE8DF /* WebServiceManager.swift */; };
+		38111747257E81A900FCE8DF /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38111744257E81A900FCE8DF /* WebServiceManager.swift */; };
+		3811174C257E82F700FCE8DF /* WebServicesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3811174B257E82F700FCE8DF /* WebServicesProtocol.swift */; };
+		3811174D257E82F700FCE8DF /* WebServicesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3811174B257E82F700FCE8DF /* WebServicesProtocol.swift */; };
+		3811174E257E82F700FCE8DF /* WebServicesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3811174B257E82F700FCE8DF /* WebServicesProtocol.swift */; };
+		38111753257E859400FCE8DF /* WebServiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38111752257E859400FCE8DF /* WebServiceResult.swift */; };
+		38111754257E859400FCE8DF /* WebServiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38111752257E859400FCE8DF /* WebServiceResult.swift */; };
+		38111755257E859400FCE8DF /* WebServiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38111752257E859400FCE8DF /* WebServiceResult.swift */; };
 		381ED11C2566D4B300F2A72A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED11B2566D4B300F2A72A /* AppDelegate.swift */; };
 		381ED11E2566D4B300F2A72A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED11D2566D4B300F2A72A /* SceneDelegate.swift */; };
 		381ED1202566D4B300F2A72A /* ProsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED11F2566D4B300F2A72A /* ProsTableViewController.swift */; };
@@ -69,6 +81,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3811173A257E80B400FCE8DF /* WebServiceSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceSession.swift; sourceTree = "<group>"; };
+		38111744257E81A900FCE8DF /* WebServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		3811174B257E82F700FCE8DF /* WebServicesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServicesProtocol.swift; sourceTree = "<group>"; };
+		38111752257E859400FCE8DF /* WebServiceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceResult.swift; sourceTree = "<group>"; };
 		381ED1182566D4B300F2A72A /* ProsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		381ED11B2566D4B300F2A72A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		381ED11D2566D4B300F2A72A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +138,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38111739257E808D00FCE8DF /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				3811173A257E80B400FCE8DF /* WebServiceSession.swift */,
+				38111744257E81A900FCE8DF /* WebServiceManager.swift */,
+				3811174B257E82F700FCE8DF /* WebServicesProtocol.swift */,
+				38111752257E859400FCE8DF /* WebServiceResult.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
 		381ED10F2566D4B300F2A72A = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +208,7 @@
 		381ED14E2566D4E400F2A72A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				38111739257E808D00FCE8DF /* Web */,
 				381ED16A2566D5C700F2A72A /* DataAccess */,
 				381ED15C2566D52B00F2A72A /* ServiceFactory.swift */,
 				381ED1632566D53E00F2A72A /* ServiceExtensions.swift */,
@@ -397,10 +425,14 @@
 				381ED17F2566D70000F2A72A /* Structs.swift in Sources */,
 				381ED15D2566D52B00F2A72A /* ServiceFactory.swift in Sources */,
 				381ED1202566D4B300F2A72A /* ProsTableViewController.swift in Sources */,
+				38111753257E859400FCE8DF /* WebServiceResult.swift in Sources */,
 				381ED1B72566EDF800F2A72A /* Buttons.swift in Sources */,
 				381ED1AC2566DFC900F2A72A /* ProsDetailViewController.swift in Sources */,
+				38111745257E81A900FCE8DF /* WebServiceManager.swift in Sources */,
 				387D5151257D8E4A001A1C95 /* Labels.swift in Sources */,
 				381ED1642566D53E00F2A72A /* ServiceExtensions.swift in Sources */,
+				3811174C257E82F700FCE8DF /* WebServicesProtocol.swift in Sources */,
+				3811173B257E80B400FCE8DF /* WebServiceSession.swift in Sources */,
 				381ED11C2566D4B300F2A72A /* AppDelegate.swift in Sources */,
 				381ED1C5256707AA00F2A72A /* Extensions.swift in Sources */,
 				381ED1762566D61800F2A72A /* DataAccessService.swift in Sources */,
@@ -415,6 +447,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				381ED1B82566EDF800F2A72A /* Buttons.swift in Sources */,
+				38111754257E859400FCE8DF /* WebServiceResult.swift in Sources */,
 				381ED1802566D70000F2A72A /* Structs.swift in Sources */,
 				381ED1772566D61800F2A72A /* DataAccessService.swift in Sources */,
 				381ED15E2566D52B00F2A72A /* ServiceFactory.swift in Sources */,
@@ -422,8 +455,11 @@
 				381ED1C6256707AA00F2A72A /* Extensions.swift in Sources */,
 				381ED16D2566D5E500F2A72A /* DataAccessProtocol.swift in Sources */,
 				381ED1332566D4B500F2A72A /* ProsAppTests.swift in Sources */,
+				38111746257E81A900FCE8DF /* WebServiceManager.swift in Sources */,
+				3811174D257E82F700FCE8DF /* WebServicesProtocol.swift in Sources */,
 				381ED1652566D53E00F2A72A /* ServiceExtensions.swift in Sources */,
 				381ED1AD2566DFC900F2A72A /* ProsDetailViewController.swift in Sources */,
+				3811173C257E80B400FCE8DF /* WebServiceSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				381ED1B92566EDF800F2A72A /* Buttons.swift in Sources */,
+				38111755257E859400FCE8DF /* WebServiceResult.swift in Sources */,
 				381ED1812566D70000F2A72A /* Structs.swift in Sources */,
 				381ED1782566D61800F2A72A /* DataAccessService.swift in Sources */,
 				381ED15F2566D52B00F2A72A /* ServiceFactory.swift in Sources */,
@@ -439,8 +476,11 @@
 				381ED1C7256707AA00F2A72A /* Extensions.swift in Sources */,
 				381ED16E2566D5E500F2A72A /* DataAccessProtocol.swift in Sources */,
 				381ED13E2566D4B500F2A72A /* ProsAppUITests.swift in Sources */,
+				38111747257E81A900FCE8DF /* WebServiceManager.swift in Sources */,
+				3811174E257E82F700FCE8DF /* WebServicesProtocol.swift in Sources */,
 				381ED1662566D53E00F2A72A /* ServiceExtensions.swift in Sources */,
 				381ED1AE2566DFC900F2A72A /* ProsDetailViewController.swift in Sources */,
+				3811173D257E80B400FCE8DF /* WebServiceSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
