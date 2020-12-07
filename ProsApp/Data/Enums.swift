@@ -19,3 +19,14 @@ public enum RatingsColor {
         }
     }
 }
+
+public enum DefaultTextColor {
+    case white, black
+
+    func toUIColor() -> UIColor {
+        switch self {
+        case .white : return UIColor.white
+        case .black : return UIColor.black
+        }
+    }
+}

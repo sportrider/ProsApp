@@ -17,9 +17,9 @@ class RatingsLabel : UILabel {
         var ratingsColor = UIColor { tc in
             switch tc.userInterfaceStyle {
             case .dark:
-                return UIColor.white
+                return DefaultTextColor.white.toUIColor()
             default:
-                return UIColor.black
+                return DefaultTextColor.black.toUIColor()
             }
         }
 
