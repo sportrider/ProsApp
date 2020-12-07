@@ -216,8 +216,6 @@
 		381ED1932566D7A800F2A72A /* ProsViews */ = {
 			isa = PBXGroup;
 			children = (
-				381ED1A42566DF8E00F2A72A /* ProsDetailView.storyboard */,
-				381ED1AB2566DFC900F2A72A /* ProsDetailViewController.swift */,
 				387D5156257D904D001A1C95 /* ProsDetailView */,
 				387D5155257D9034001A1C95 /* ProsView */,
 				381ED19A2566D9AD00F2A72A /* ProsManager.swift */,
@@ -254,6 +252,8 @@
 		387D5156257D904D001A1C95 /* ProsDetailView */ = {
 			isa = PBXGroup;
 			children = (
+				381ED1A42566DF8E00F2A72A /* ProsDetailView.storyboard */,
+				381ED1AB2566DFC900F2A72A /* ProsDetailViewController.swift */,
 			);
 			path = ProsDetailView;
 			sourceTree = "<group>";
